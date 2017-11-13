@@ -1,0 +1,8 @@
+/node_modules
+/public/build
+/vendor
+/.idea
+/.vagrant
+Homestead.json
+Homestead.yaml
+.env

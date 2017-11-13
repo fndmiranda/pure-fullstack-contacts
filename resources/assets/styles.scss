@@ -1,0 +1,51 @@
+.wrap {
+  width: 940px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.flex {
+  display: inline-block;
+}
+.flex:not(:first-child) {
+  padding-left: 5px;
+  margin-left: 5px;
+}
+.form-field {
+  margin-bottom: 16px;
+  width: 100%;
+}
+.text-center {
+  text-align: center;
+}
+form[data-action="add"] #cancel {
+  opacity: 0;
+}
+form[data-action="edit"] #cancel {
+  opacity: 1;
+}
+label {
+  display: block;
+}
+input {
+  width: 100%;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table,
+table thead tr th,
+table tbody tr td {
+  border: 1px solid black;
+}
+table thead tr th {
+  padding: 5px 0;
+}
+table tbody tr td {
+  padding: 5px 16px;
+  vertical-align: middle;
+}

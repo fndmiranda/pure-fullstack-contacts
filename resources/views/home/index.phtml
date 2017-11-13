@@ -1,0 +1,57 @@
+<section class="wrap">
+    <header>
+        <h1>Contacts</h1>
+    </header>
+    <section class="main">
+        <form id="app-form" action="#" method="post" data-action="add">
+            <input type="hidden" name="id" id="id">
+            <div class="row">
+                <div class="flex form-field">
+                    <label for="first_name">First name</label>
+                    <input type="text" id="first_name" name="first_name" required>
+                </div>
+                <div class="flex form-field">
+                    <label for="last_name">Last name</label>
+                    <input type="text" id="last_name" name="last_name" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="flex form-field">
+                    <label for="address">Address</label>
+                    <input type="text" id="address" name="address" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="flex form-field">
+                    <button type="submit" id="send">Add</button>
+                    <button type="button" id="cancel">Cancel</button>
+                </div>
+            </div>
+        </form>
+        <hr />
+        <h3>List of contacts</h3>
+        <table>
+            <thead>
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Address</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody id="list">
+
+            </tbody>
+        </table>
+    </section>
+</section>
+<script id="template" type="x-template">
+    <td class="item-first_name"></td>
+    <td class="item-last_name"></td>
+    <td class="item-address"></td>
+    <td class="text-center item-actions">
+        <button type="button" class="remove">Delete</button>
+        &nbsp;
+        <button type="button" class="edit">Edit</button>
+    </td>
+</script>

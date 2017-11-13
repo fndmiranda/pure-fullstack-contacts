@@ -1,0 +1,18 @@
+{
+    "name": "fernando/pure-fullstack-contacts",
+    "description": "A pure full-stack contacts project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fernando Miranda",
+            "email": "fndmiranda@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
